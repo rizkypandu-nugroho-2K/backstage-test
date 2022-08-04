@@ -4,7 +4,7 @@ metadata:
   name: test-k8s-api
   description: Test K8s API
   annotations:
-    backstage.io/kubernetes-id: playground
+    backstage.io/kubernetes-id: test-k8s-api
   tags:
     - go
 spec:

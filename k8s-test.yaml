@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-k8s-api
+  description: Test K8s API
+  annotations:
+    backstage.io/kubernetes-id: playground
+  tags:
+    - go
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
+  system: k8s
